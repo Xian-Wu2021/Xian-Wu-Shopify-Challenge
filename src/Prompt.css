@@ -1,0 +1,52 @@
+.PromptContainer {
+  font-family: sans-serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.PromptLabel,
+.ResponseTitle {
+  font-weight: bold;
+}
+
+.PresetButton {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 6em;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.PromptTextarea {
+  padding: 0;
+  width: 100%;
+  height: 10em;
+}
+
+.PromptSubmitButton {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 10em;
+  height: 3em;
+  float: right;
+}
+
+.ResponseItem {
+  display: grid;
+  grid-template-columns: 10em auto;
+  grid-gap: 1em 0em;
+  background-color: lightgray;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.ResponseLabel {
+  clear: both;
+}
